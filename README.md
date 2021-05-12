@@ -1,6 +1,6 @@
 # AutoTalismanFarming-MHR
 An automatic machine for farming talisman in Monster Hunter Rise.
-This is an update from my other repo [Autocart-MHR](https://github.com/yijunj/Autocart-MHR).
+This is an update from my other repo [Autocart-MHR](https://github.com/yijunj/Autocart-MHR), which only automates the carting process.
 
 ## Background
 Talisman is a key equipment in Monster Hunter Rise, with the capability of providing highly rated skills and slots. However, obtaining good (or even god) talismans requires effort and in-game resources, as they are generated from a random melding pot known as the Wisp of Mystery. A good description of the talisman mechanism can be found [here](https://game8.co/games/Monster-Hunter-Rise/archives/327175).
@@ -31,7 +31,8 @@ Note:
 2. I'm running the script on a Windows 10 PC with screen resolution 1920 x 1080. Depending on OS and resolution, functions in screenshot.py (which provides visual feedback) will need tweaking.
 3. Please always have the OBS video window exposed in order for screen capturing to work properly.
 4. The program will beep when it finds a Weakness Exploit 2 talisman. In that case, either unplug the USB and manually take the talisman, which ends the farming (you may want to kill the program as well), or if the talisman is still not good, press any key to let the program continue. All talisman history will be documented in talisman_history.txt under the same folder.
-5. ALWAYS baby-sit the program for the first few rounds.
+5. Please have enough material to make talismans. As described above, the procedure is not very material-consuming at all, but there is still material cost involved.
+6. ALWAYS baby-sit the program for the first few rounds.
 
 Here are the steps you need to take:
 1. Do what is said in [HackerLoop's repo](https://github.com/HackerLoop/Arduino-JoyCon-Library-for-Nintendo-Switch) to modify the Arduino files, and download SwitchJoystick library from there. Write joycon.ino to an Arduino Leonardo.
