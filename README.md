@@ -23,7 +23,7 @@ Step 6 will refresh the talisman table so you end up with different talismans in
 Please refer to [HackerLoop's repo](https://github.com/HackerLoop/Arduino-JoyCon-Library-for-Nintendo-Switch) to learn how to turn an Arduino Leonardo into a Switch joycon. In short, the Arduino, when connected to a Switch via USB, can trigger joycon events. One can either store a button sequence in the Arduino itself, or send commands to the Arduino from a PC via serial port. Here I use the latter: my PC sends a string to the Arduino consisting of several 6-char commands, the Arduino translates the commands into joycon events.
 
 ## Visual feedback
-I use a video capture card to acquire the Switch screen on PC. This is necessary for the program to automatically read talisman names and slots once melding is completed. It is also used to automatically hand in materials for making new batches of talismans. The software I'm using is [OBS Studio](https://obsproject.com/). Video recording is not necessary. The program only takes screenshots at specific times (so the OBS video window needs to be exposed) and uses [pytesseract](https://pypi.org/project/pytesseract/) to extract text.
+I use a video capture card to acquire the Switch screen on PC. This is necessary for the program to automatically read talisman names and slots once melding is completed. It is also used to automatically hand in materials for making new batches of talismans. The software I'm using is [OBS Studio](https://obsproject.com/). Video recording is not necessary. The program only takes screenshots at specific times (so the OBS video window needs to be exposed) and uses the [pytesseract](https://pypi.org/project/pytesseract/) library to extract text.
 
 ## How to use
 Note:
