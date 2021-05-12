@@ -33,7 +33,7 @@ Note:
 4. The program will beep when it finds a Weakness Exploit 2 talisman. In that case, either unplug the USB and manually take the talisman, which ends the farming (you may want to kill the program as well), or if the talisman is still not good, press any key to let the program continue. All talisman history will be documented in talisman_history.txt under the same folder.
 5. ALWAYS baby-sit the program for the first few rounds.
 
-Here is the steps you need to take
+Here are the steps you need to take:
 1. Do what is said in [HackerLoop's repo](https://github.com/HackerLoop/Arduino-JoyCon-Library-for-Nintendo-Switch) to modify the Arduino files, and download SwitchJoystick library from there. Write joycon.ino to an Arduino Leonardo.
 2. Install [Tesseract](https://github.com/UB-Mannheim/tesseract/wiki) and [pytesseract](https://pypi.org/project/pytesseract/).
 3. Connect the Arduino to PC using a serial-to-USB adapter (USB to computer, RX/TX to the Arduino corresponding pins). Check the serial port (for Windows you can go to device manager and look there). It can be different from what I have so you may want to modify the codes.
