@@ -3,6 +3,7 @@ An automatic machine for farming talisman in Monster Hunter Rise.
 This is an update from my other repo [Autocart-MHR](https://github.com/yijunj/Autocart-MHR), which only automates the carting process.
 
 A 64x-speed demo is here. For demonstration I'm only making 2 melding batches. In practice it's most efficient to make 10.
+
 ![Demo](https://github.com/yijunj/AutoTalismanFarming-MHR/blob/main/Demo_64x_480p.gif)
 
 ## Background
