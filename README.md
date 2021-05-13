@@ -2,6 +2,9 @@
 An automatic machine for farming talisman in Monster Hunter Rise.
 This is an update from my other repo [Autocart-MHR](https://github.com/yijunj/Autocart-MHR), which only automates the carting process.
 
+A 64x-speed demo is here. For demonstration I'm only making 2 melding batches. In practice it's most efficient to make 10.
+![Demo](https://github.com/yijunj/AutoTalismanFarming-MHR/blob/main/Demo_64x_480p.gif)
+
 ## Background
 Talisman is a key equipment in Monster Hunter Rise, with the capability of providing highly rated skills and slots. However, obtaining good (or even god) talismans requires effort and in-game resources, as they are generated from a random melding pot known as the Wisp of Mystery. A good description of the talisman mechanism can be found [here](https://game8.co/games/Monster-Hunter-Rise/archives/327175).
 
