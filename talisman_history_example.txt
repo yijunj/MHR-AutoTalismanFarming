@@ -108,6 +108,3 @@ Windproof 1, Hom Maestro 1, 1-0-0
 Starnina Surge 2, 0-0-0
 Recovery Up 2, Thunder Resistance 2, 2-0-0
 
-2021-05-12 21:08:47.539365
-Ice Attack 1, Guard 1, 1-0-0
-
