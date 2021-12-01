@@ -1,4 +1,4 @@
-# AutoTalismanFarming-MHR
+# MHR-AutoTalismanFarming
 An automatic machine for farming talisman in Monster Hunter Rise.
 This is an update from my other repo [MHR-Autocart](https://github.com/yijunj/MHR-Autocart), which only automates the carting process.
 
